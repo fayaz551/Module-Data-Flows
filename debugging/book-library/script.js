@@ -1,4 +1,9 @@
-let myLibrary = [];
+const myLibrary = [];
+
+const titleInput = document.getElementById("title");
+const authorInput = document.getElementById("author");
+const pagesInput = document.getElementById("pages");
+const checkInput = document.getElementById("check");
 
 window.addEventListener("load", function (e) {
   populateStorage();
@@ -13,11 +18,6 @@ function populateStorage() {
     
   }
 }
-
-const titleInput = document.getElementById("title");
-const authorInput = document.getElementById("author");
-const pagesInput = document.getElementById("pages");
-const checkInput = document.getElementById("check");
 
 function submit() {
  
